@@ -24,7 +24,7 @@ installation compilateur gcc : sudo apt install gcc
 
 installation librairie : sudo apt install libssl-dev
 
-compilation dans le repertoire courant : gcc -Wall hash_main.c -lcrypto
+compilation dans le repertoire courant : gcc -Wall mainHash_OK.c -lcrypto
 
 exécuter le programme avec ou sans nom de fichier en paramètre : ./a.out dicoMdp.txt
 
